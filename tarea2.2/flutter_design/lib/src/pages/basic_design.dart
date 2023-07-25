@@ -6,7 +6,7 @@ class BasicDesign extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white, // Fondo blanco
+      backgroundColor: Colors.white,
     
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
@@ -62,7 +62,7 @@ class BasicDesign extends StatelessWidget {
                   IconButton(
                     icon: Icon(Icons.call_outlined,
                         size: 30, color: Color.fromARGB(255, 22, 77, 122)),
-                    onPressed: null, // Sin función
+                    onPressed: null, 
                   ),
                   Text(
                     'Llamar',
@@ -71,13 +71,13 @@ class BasicDesign extends StatelessWidget {
                   ),
                 ],
               ),
-              SizedBox(width: 40), // Espaciado entre los íconos
+              SizedBox(width: 40), 
               Column(
                 children: [
                   IconButton(
                     icon: Icon(Icons.chat_outlined,
                         size: 30, color: Color.fromARGB(255, 22, 77, 122)),
-                    onPressed: null, // Sin función
+                    onPressed: null, 
                   ),
                   Text(
                     'Mensaje de Texto',
@@ -86,13 +86,13 @@ class BasicDesign extends StatelessWidget {
                   ),
                 ],
               ),
-              SizedBox(width: 40), // Espaciado entre los íconos
+              SizedBox(width: 40), 
               Column(
                 children: [
                   IconButton(
                     icon: Icon(Icons.videocam_outlined,
                         size: 35, color: Color.fromARGB(255, 22, 77, 122)),
-                    onPressed: null, // Sin función
+                    onPressed: null, 
                   ),
                   Text(
                     'Video',
@@ -117,7 +117,7 @@ class BasicDesign extends StatelessWidget {
             decoration: BoxDecoration(
               color: const Color.fromARGB(247, 238, 243, 243),
               borderRadius:
-                  BorderRadius.circular(10), // Radio del borde redondeado
+                  BorderRadius.circular(10), 
             ),
             child: const Column(
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -164,7 +164,7 @@ class BasicDesign extends StatelessWidget {
                         Icons.chat_outlined,
                         size: 25,
                         color: Color.fromARGB(255, 75, 75, 75),
-                      ), // Ícono de mensaje que representa Telegram
+                      ), // Ícono "telegram"
                     ],
                   ),
                 ),
@@ -195,7 +195,6 @@ class BasicDesign extends StatelessWidget {
                       size: 25,
                       color: Colors.green,
                     ),
-                    // Ícono de mensaje que representa Telegram
                     SizedBox(width: 20),
                     Text(
                       'Llamar a +504 9902-9311',
@@ -213,7 +212,7 @@ class BasicDesign extends StatelessWidget {
                       Icons.call,
                       size: 25,
                       color: Colors.green,
-                    ), // Ícono de mensaje que representa Telegram
+                    ),
                     SizedBox(width: 20),
                     Text(
                       'Videollamar a +504 9902-9311',
@@ -231,7 +230,7 @@ class BasicDesign extends StatelessWidget {
                       Icons.outbound,
                       size: 25,
                       color: Colors.blue,
-                    ), // Ícono de mensaje que representa Telegram
+                    ),
                     SizedBox(width: 20),
                     Text(
                       'Mensaje al +50499029311',
@@ -249,7 +248,7 @@ class BasicDesign extends StatelessWidget {
                       Icons.outbound,
                       size: 25,
                       color: Colors.blue,
-                    ), // Ícono de mensaje que representa Telegram
+                    ), 
                     SizedBox(width: 20),
                     Text(
                       'Llamada de voz al +50499029311',
@@ -267,7 +266,7 @@ class BasicDesign extends StatelessWidget {
                       Icons.outbound,
                       size: 25,
                       color: Colors.blue,
-                    ), // Ícono de mensaje que representa Telegram
+                    ),
                     SizedBox(width: 20),
                     Text(
                       'Videollamada al +50499029311',
